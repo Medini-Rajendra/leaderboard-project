@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard Project</title>
+</head>
+<body>
+    <h1 class="maintitleclass" id="maintitle">Leaderboard</h1>
+    <main>
+        <section class="left-section">
+          <header class="left-header">
+            <h2 class="left-heading">Recent Scores</h2>
+            <button class="button">Refresh</button>
+          </header>
+          <ul class="score-list">
+            <li class="item">Name : 100</li>
+            <li class="item">Name : 20</li>
+            <li class="item">Name : 35</li>
+            <li class="item">Name : 60</li>
+            <li class="item">Name : 89</li>
+            <li class="item">Name : 74</li>
+            <li class="item">Name : 48</li>
+          </ul>
+        </section>
+        <section class="right-section">
+          <h2 class="right-heading">Add Your Score</h2>
+          <form action="/action_page.php">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+            /><br />
+            <input
+              type="number"
+              id="score"
+              name="score"
+              placeholder="Your Score"
+            /><br />
+            <input type="submit" id="submit-btn" value="Submit" />
+          </form>
+        </section>
+      </main>
+      <footer>
+        <div class="footer">
+          <p class="copyright">&copy; All rights reserved.</p>
+        </div>
+      </footer>
+</body>
+</html>
